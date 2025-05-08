@@ -1,0 +1,47 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(QuantifierNbp-2d6X.ttf);
+}
+
+
+
+body {
+  font-family: myFirstFont;
+  color: white;
+  background-image: linear-gradient(to right, rgb(252, 101, 101), orange, purple) !important;
+  background-size: cover;
+}
+
+.custom-navbar {
+  color: white !important;
+  font-size: 1.5rem;
+}
+
+.card-link {
+  color: white !important;
+  text-decoration: none;
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 2px;
+  padding: 5px;
+}
+
+.navbar-brand {
+  color: white !important;
+  font-size: 2rem;
+}
+
+#gallery-card {
+padding:150px;
+background-color:transparent;
+color: white;
+border-radius:50px;
+border-style:solid;
+border-width: 1px;
+border-color: white;
+font-family:'Courier New', Courier, monospace;
+}
+
+.card-body{
+  font-family: 'Courier New', Courier, monospace;
+}
